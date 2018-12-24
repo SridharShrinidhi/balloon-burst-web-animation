@@ -139,9 +139,9 @@
     transform: scale(1);
   }
 
-  100% {
+  98% {
     filter: blur(3px);
-    transform: scale(.6);
+    transform: scale(.2);
   }
 
 }
