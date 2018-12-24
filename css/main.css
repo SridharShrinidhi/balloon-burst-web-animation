@@ -1,0 +1,114 @@
+.balloon {
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10em;
+  left: 20em;
+}
+
+.head {
+  background-image: url("../images/coloured-balloon.svg");
+  animation: head 4s ease-in-out infinite;
+}
+
+.string {
+  background-image: url("../images/balloon-string.svg");
+  animation: head 4s ease-in-out infinite;
+}
+
+.head-shadow {
+  background-image: url("../images/balloon-head-shadow.svg");
+  animation:
+}
+
+.string-shadow {
+  background-image: url("../images/balloon-string-shadow.svg");
+  animation:
+}
+
+.balloon-main {
+  animation: burst 4s ease-in-out infinite;
+}
+
+@keyframes head {
+
+  0% {
+    top: 12.5em;
+    left: 20em;
+    fill: #f49f30;
+  }
+
+  10% {
+    top: 12.25em;
+    left: 20.2em;
+  }
+
+  20% {
+    top: 12em;
+    left: 20em;
+  }
+
+  30% {
+    top: 11.75em;
+    left: 20.2em;
+  }
+
+  40% {
+    top: 11.5em;
+    left: 20em;
+  }
+
+  50% {
+    top: 11.25em;
+    left: 20.2em;
+    fill: #f42f53;
+  }
+
+  60% {
+    top: 11em;
+    left: 20em;
+  }
+
+  70% {
+    top: 10.75em;
+    left: 20.2em;
+  }
+
+  80% {
+    top: 10.5em;
+    left: 20em;
+  }
+
+  90% {
+    top: 10.25em;
+    left: 20.2em;
+  }
+
+  100% {
+    top: 10em;
+    left: 20em;
+    fill: #f49f30;
+  }
+
+}
+
+@keyframes burst {
+
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  95% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+}
